@@ -1,19 +1,3 @@
--- Получи сучка объект парт
-local part = game.Workspace.Lobby.Portals.NormalArena.PortalTrigger -- Замените 'Part' на имя твоей части
-
--- Создай сучёную функцию для телепортации и поворота
-local function teleportAndRotatePart()
-    -- Установи новые координаты для телепортации
-    local newPosition = Vector3.new(-42, 365, -2) -- Замени сучку на желаемое местоположение
-    part.Position = newPosition
-
-    -- Установи новый угол членестого поворота
-    local newRotation = Vector3.new(90, 90, 90) -- Замени на желаемые значения сучёного поворота
-    part.Orientation = newRotation
-end
-
-teleportAndRotatePart()
-
 local player = game.Players.LocalPlayer
 local virtualuser = game:GetService("VirtualUser")
 local exit = false
